@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: beige;
+      padding: 50px;
+    }
+
+    .form-box {
+      background-color: #ffffff;
+      border-radius: 15px;
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .form-title {
+      text-align: center;
+    }
+
+    input,
+    label,
+    select {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    select {
+      padding: 10px;
+    }
+
+    input {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: rgb(19, 71, 19);
+      color: #ffffff;
+      outline: none;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="form-box">
+    <h2 class="form-title">Реєстрація</h2>
+
+    <form action="" method="">
+      <label for="userName">Ім'я:</label>
+      <input type="text" id="userName" name="userName">
+
+      <label for="userEmail">Email:</label>
+      <input type="email" id="userEmail" name="userEmail">
+
+      <label for="userPassword">Пароль:</label>
+      <input type="password" id="userPassword" name="userPassword">
+
+      <label for="userLevel">Рівень:</label>
+      <input type="range" id="userLevel" name="userLevel">
+
+      <label for="userRole">Клас:</label>
+      <select id="userRole" name="userRole">
+        <option value="Воїн">Воїн</option>
+        <option value="Маг">Маг</option>
+        <option value="Лучник">Лучник</option>
+
+      </select>
+
+      <p>Навички:</p>
+      <label><input type="checkbox" value="Сила">Сила</label><br>
+      <label><input type="checkbox" value="Швидкість">Швидкість</label><br>
+      <label><input type="checkbox" value="Інтелект">Інтелект</label>
+
+      <br><br>
+
+      <input type="submit" value="Зареєструватись">
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, 'Time New Roman', sans-serif;
+  padding: 64px 57px;
+}
+
+main {
+  display: flex;
+  gap: 67px;
+}
+
+.about-box {
+  background-color: #1A142D;
+  padding: 18px;
+  flex:0 0 30%;
+}
+
+.photo-box {
+  margin-bottom: 38px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.name-box {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.name-box > h1 {
+  font-size: 30px;
+}
+
+.date-box {
+  text-align: center;
+  margin-bottom: 38px;
+}
+.icon-box {
+  text-align: center;
+}
+
+.social-icon {
+  margin-bottom: 38px;
+}
+
+.date-bold {
+
+}
+
+.content-box {
+  flex: 1;
+}
+
+.exp-description {
+  padding-right: 60px;
+}

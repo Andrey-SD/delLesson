@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+menu {
+  background-color: gray;
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  padding: 20px 40px;
+
+}
+li:hover {
+  background-color: url(image/istockphoto-1148705812-612x612.jpg);
+}

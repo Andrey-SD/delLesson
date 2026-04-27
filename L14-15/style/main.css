@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-box {
+  background:
+    linear-gradient(#212123, #c0826700),
+    url("../img/BG.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+header {
+  /* background-color: #A0583C; */
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 22px 22px 85px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 52px;
+  list-style: none;
+}
+
+.nav-link,
+.btn {
+  color: #efeff5;
+  font-family: Poppins;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 9px 13px;
+  background-color: #A0583C;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.reg-box {
+  display: flex;
+  gap: 20px;
+}
+
+.reg-link {
+  display: flex;
+  align-items: center;
+}
+
+.banner-title-box {
+  margin: 150px auto 75px auto;
+}
+
+.banner {
+  padding-bottom: 117px;
+
+}
+
+.banner-title,
+.banner-sub-title {
+  text-align: center;
+  color: #FFFADA;
+  font-family: Roboto;
+  margin-bottom: 35px;
+}
+
+.banner-title {
+  font-size: 72px;
+}
+
+.banner-sub-title {
+  font-size: 24px;
+
+}
+
+.btn-banner-box {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn-banner {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 65px;
+  background: linear-gradient(90deg, #A0583C, #C08267);
+}
+
+.sct {
+  padding: 37px;
+}
+
+.sct-lt {
+  background-color: #FFFADA;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 57px;
+}
+
+.divider-title {
+  white-space: nowrap;
+  font-size: 23px;
+  color: #C08267;
+}
+
+.divider-line {
+  background-color: #A0583C;
+  width: 100%;
+  height: 2px;
+}
+
+.card-box {
+  display: flex;
+  gap: 41px;
+}
+
+.card {
+  background-color: #C08267;
+  border-radius: 20px;
+  padding: 23px 21px;
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.card-title {
+  margin-bottom: 11px;
+}
+
+.card-description {
+  margin-bottom: 50px;
+}
+
+.order-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sct-drk {
+  background-color: #C08267;
+}
+
+.sct-drk .divider-title {
+  color: #FFFADA;
+}
+.sct-drk .divider-line {
+  background-color:#FFFADA;
+}
+
+.cols-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-list{
+  list-style: none;
+}
+
+.soc-box {
+  display: flex;
+}
