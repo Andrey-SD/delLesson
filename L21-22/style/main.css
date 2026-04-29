@@ -10,6 +10,8 @@
 
 body {
   font-family: Laila;
+  background-image: url(../img/bg.png);
+  padding: 50px;
 }
 
 .fl {
@@ -28,7 +30,8 @@ body {
 
 .nav-list {
   list-style: none;
-  gap: 15px;}
+  gap: 15px;
+}
 
 .logo-text,
 .nav-link {
@@ -55,11 +58,124 @@ body {
   background-color: var(--dk-font-color);
 }
 
-.nav-link {}
+.nav-link {
+  text-decoration: none;
+  color: var(--lt-font-color);
+  font-size: 30px;
+  white-space: nowrap;
+}
 
+.main {
+  margin: 50px 0;
+  align-items: start;
+  gap: 100px;
+}
 
+.col {
+  flex: 1;
+}
+
+.autor-name,
+.autor-about,
+.autor-description {
+  font-weight: 600;
+}
+
+.autor-about,
+.autor-description {
+  color: var(--lt-font-color);
+}
+
+.autor-name {
+  font-size: 70px;
+  font-weight: 300;
+  color: var(--dk-font-color);
+  -webkit-text-stroke: 1px var(--lt-font-color);
+}
+
+.autor-about {
+  font-size: 65px;
+  margin-bottom: 70px;
+}
+
+.autor-description {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.autor-banner {
+  width: 100%;
+}
+
+.autor-link-box {
+  display: flex;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.autor-link {
+  font-weight: 300;
+  font-size: 30px;
+  padding: 15px 50px;
+  color: var(--lt-font-color);
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.1s linear;
+  box-sizing: content-box;
+  border: 1px solid transparent;
+}
+
+.autor-link:hover {
+  font-weight: 600;
+  background-color: var(--dk-font-color);
+  border: 1px solid var(--lt-font-color);
+
+}
 
 @font-face {
   font-family: Laila;
   src: url(../font/Laila-Bold.ttf);
+}
+
+@font-face {
+  font-family: Laila;
+  src: url(../font/Laila-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Laila;
+  src: url(../font/Laila-Medium.ttf);
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 5px;
+  }
+
+  .nav-box {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .nav-link {
+    font-size: 35px;
+  }
 }
